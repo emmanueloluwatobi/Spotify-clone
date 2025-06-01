@@ -5,6 +5,7 @@ import search from '../assets/search.png'
 import menu from '../assets/menu.png'
 import heart from '../assets/heart.png'
 import{artistData} from '../assets/assets.js'
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   const [width, setWidth] = useState(270); // initial width in px
@@ -70,16 +71,18 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-start gap-3 mb-6"  >
+        <div className="flex items-center justify-start gap-3 mb-6">
           <div className='w-full'>
             {artistData.map(artist =>(
-              <div key={artist.id} className='flex items-center justify-start gap-3 cursor-pointer hover:bg-[#ffffff1a] p-3 rounded-xs'>
+              <Link to={`/artist/${artist.name}`} key={artist.id} className='flex items-center justify-start gap-3 cursor-pointer hover:bg-[#ffffff1a] p-3 rounded-xs'>
                 <img src={artist.image} className='w-12 h-12 rounded-4xl'/>
                 <div>
-                  <h3 className='font-medium'>{artist.name}</h3>
+                  <Link to={`/artist/${artist.name}`}>
+                    <h3 className='font-medium'>{artist.name}</h3>
+                  </Link>
                   <p className='text-[15px] text-gray-400'>{artist.desc}</p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

@@ -40,6 +40,7 @@ import facebook from './facebook.png'
 import copyright from './copyright.png'
 import dots from './dots.png'
 import menu from './menu.png'
+import verified from './verified.png'
 
 
 import img1 from './img1.jpg'
@@ -65,6 +66,7 @@ import song3 from  './song3.mp3'
 
 
 export const assets = {
+    verified,
     img1,
     menu,
     dots,
@@ -106,72 +108,84 @@ export const artistData = [
         name: "Asake",
         image: asake,
         desc:"Artist",
+        listener:"12,382,293"
     },
     {   
         id:1,
         name: "Ayo Maff",
         image: ayomaff,
         desc:"Artist",
+        listener:"12,382,293"
     },
     {   
         id:2,
         name: "BNXN",
         image: buju,
         desc:"Artist",
+        listener:"12,382,293"
     },
     {   
         id:3,
         name: "Burna Boy",
         image: burnaboy,
         desc:"Artist",
+        listener:"12,382,293"
     },
     {   
         id:4,
         name: "Llona",
         image: llona,
         desc:"Artist",
+        listener:"12,382,293"
     },
     {   
         id:5,
         name: "Olamide",
         image: olamide,
         desc:"Artist",
+        listener:"12,382,293"
     },
     {   
         id:6,
         name: "Omah Lay",
         image: omahlay,
         desc:"Artist",
+        listener:"12,382,293"
     },
     {   
         id:7,
         name: "Seyi Vibes",
         image: seyivibe,
         desc:"Artist",
+        listener:"12,382,293"
     },
     {   
         id:8,
         name: "Tiwa Savage",
         image: tiwa,
         desc:"Artist",
+        listener:"12,382,293"
     },
     {   
         id:9,
         name: "Wizkid",
         image: wizkid,
         desc:"Artist",
+        listener:"12,382,293"
     },
     {   
         id:10,
         name: "Young John",
         image: youngjohn,
         desc:"Artist",
+        listener:"12,382,293"
     },
     {   
         id:11,
         name: "Zlatan",
         image: zlatan,
         desc:"Artist",
+        listener:"12,382,293"
     }
 ]
 export const albumsData = [
@@ -269,7 +283,8 @@ export const songsData = [
         artist: "Asake",
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:00",
-        albumIds:[0, 2]
+        albumIds:[0, 2, 4, 6, 8, 10],
+        artistIds:[0, 2, 4, 6, 8, 10]
     },
     {
         id:1,
@@ -279,7 +294,8 @@ export const songsData = [
         artist: "Ayomaff",
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:20",
-        albumIds:[1, 3]
+        albumIds:[1, 3, 5, 7, 9, 11],
+        artistIds:[1, 3, 5, 7, 9, 11],
     },
     {
         id:2,
@@ -289,7 +305,8 @@ export const songsData = [
         artist: "Buju",
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:32",
-        albumIds:[2, 4]
+        albumIds:[0, 2, 4, 6, 8, 10],
+        artistIds:[0, 2, 4, 6, 8, 10]
     },
     {
         id:3,
@@ -299,7 +316,8 @@ export const songsData = [
         artist: "Burna Boy",
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:50",
-        albumIds:[3, 4]
+        albumIds:[1, 3, 5, 7, 9, 11],
+        artistIds:[1, 3, 5, 7, 9, 11],
     },
     {
         id:4,
@@ -309,7 +327,8 @@ export const songsData = [
         artist: "Llona",
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:10",
-        albumIds:[4, 5]
+        albumIds:[0, 2, 4, 6, 8, 10],
+        artistIds:[0, 2, 4, 6, 8, 10]
     },
     {
         id:5,
@@ -319,7 +338,8 @@ export const songsData = [
         artist: "Olamide",
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:45",
-        albumIds:[5, 6]
+        albumIds:[1, 3, 5, 7, 9, 11],
+        artistIds:[1, 3, 5, 7, 9, 11],
     },
     {
         id:6,
@@ -329,7 +349,8 @@ export const songsData = [
         artist: "Omah Lay",
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:18",
-        albumIds:[7, 8]
+        albumIds:[0, 2, 4, 6, 8, 10],
+        artistIds:[0, 2, 4, 6, 8, 10]
     },
     {
         id:7,
@@ -339,7 +360,8 @@ export const songsData = [
         artist: "Seyi Vibes",
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35",
-        albumIds:[9, 10]
+        albumIds:[1, 3, 5, 7, 9, 11],
+        artistIds:[1, 3, 5, 7, 9, 11],
     },
     {
         id:8,
@@ -349,7 +371,8 @@ export const songsData = [
         artist: "Tiwa Savage",
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35",
-        albumIds:[10, 11]
+        albumIds:[0, 2, 4, 6, 8, 10],
+        artistIds:[0, 2, 4, 6, 8, 10]
     },
     {
         id:9,
@@ -359,6 +382,7 @@ export const songsData = [
         artist: "Wizkid",
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35",
-        albumIds:[11, 12]
+        albumIds:[1, 3, 5, 7, 9, 11],
+        artistIds:[1, 3, 5, 7, 9, 11],
     }
 ]
