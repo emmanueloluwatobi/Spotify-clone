@@ -26,7 +26,7 @@ import asake from './asake.png'
 import ayomaff from './ayomaff.png'
 import buju from './buju.png'
 import burnaboy from './burnaboy.png'
-import llona from './llona.png'
+import llona from './llona.jpeg'
 import olamide from './olamide.png'
 import omahlay from './omahlay.png' 
 import seyivibe from './seyivibe.png'
@@ -41,6 +41,10 @@ import copyright from './copyright.png'
 import dots from './dots.png'
 import menu from './menu.png'
 import verified from './verified.png'
+import logo from './logo.png'
+import music from './music.png'
+import arrowdown from './arrowdown.png'
+import group from './group.png'
 
 
 import img1 from './img1.jpg'
@@ -66,6 +70,10 @@ import song3 from  './song3.mp3'
 
 
 export const assets = {
+    group,
+    arrowdown,
+    music,
+    logo,
     verified,
     img1,
     menu,
